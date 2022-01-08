@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dijrska", "dijrska.csproj", "{9BB6F927-2C90-48EF-94B0-C8320533BFC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijkstraAlgorithm", "..\DijkstraAlgorithm\DijkstraAlgorithm.csproj", "{D8287C0F-6554-4CAC-AF65-02A0DF2E58E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BB6F927-2C90-48EF-94B0-C8320533BFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB6F927-2C90-48EF-94B0-C8320533BFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB6F927-2C90-48EF-94B0-C8320533BFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB6F927-2C90-48EF-94B0-C8320533BFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8287C0F-6554-4CAC-AF65-02A0DF2E58E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8287C0F-6554-4CAC-AF65-02A0DF2E58E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8287C0F-6554-4CAC-AF65-02A0DF2E58E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8287C0F-6554-4CAC-AF65-02A0DF2E58E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
