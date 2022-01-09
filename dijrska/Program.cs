@@ -11,7 +11,7 @@ namespace dijrska
             List<List<int?>> matrix = new List<List<int?>>();
             List<KeyValuePair<int?, bool>> resultVector = new List<KeyValuePair<int?, bool>>();
 
-            int startingPoint = 4;
+            int startingPoint = 0;
             matrix = BuildMatrix();
             resultVector = BuildResultVector(startingPoint, matrix);
             resultVector = BlockVectorPosition(startingPoint, resultVector);
@@ -88,6 +88,7 @@ namespace dijrska
             C--1--D
 
             Matrix:
+            A  B  C  D  E
             0  2  4  -  -    //From point A
             2  0  2  4  10   //From point B
             4  2  0  1  -    //From point C
